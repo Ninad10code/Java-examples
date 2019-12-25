@@ -1,0 +1,17 @@
+class addition
+{
+    int add(int a, int b)
+    {
+         return a+b;
+    }
+  
+}
+public class calculation
+{
+   public static void main(String args[])
+   {
+	   addition obj = new addition();
+       System.out.println(obj.add(10, 15));
+       System.out.println(obj.add(10, 10));
+   }
+}
