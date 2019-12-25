@@ -1,0 +1,18 @@
+class Engineer {
+   String designation = "Software Engineer";
+   String companyName = "Google";
+   void task(){
+	System.out.println("Develops projects");
+   }
+}
+
+public class SeniorEngineer extends Teacher{
+   String title = "Senior Engineer Developer";
+   public static void main(String args[]){
+	SeniorEngineer obj = new SeniorEngineer();
+	System.out.println(obj.companyName);
+	System.out.println(obj.designation);
+	System.out.println(obj.title);
+	obj.task();
+   }
+}
