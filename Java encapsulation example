@@ -1,0 +1,30 @@
+class Engineer{
+    private String role;
+    private String engName;
+ 
+    public String getEngRole(){
+        return role;
+    }
+
+    public String getEngName(){
+        return engName;
+    }
+
+
+    public void setEngName(String newValue){
+        engName = newValue;
+    }
+
+    public void setEngRole(String newValue){
+        role = newValue;
+    }
+}
+public class Run{
+    public static void main(String args[]){
+         Engineer obj = new Engineer();
+         obj.setEngName("Ninad");
+         obj.setEngRole("Software Development Engineer");
+         System.out.println("Engineer Name: " + obj.getEngName());
+         System.out.println("Engineer Role: " + obj.getEngRole());
+    } 
+}
