@@ -1,0 +1,9 @@
+Compile time polymorphism:
+
+Polymorphism that is resolved during compiler time is known as static polymorphism. Method overloading is an example of compile time polymorphism.
+
+
+
+Run time polymorphism:
+
+Dynamic polymorphism is a process in which a call to an overridden method is resolved at runtime, thats why it is called runtime polymorphism
