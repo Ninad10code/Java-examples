@@ -6,7 +6,7 @@ class Engineer {
    }
 }
 
-public class SeniorEngineer extends Teacher{
+public class SeniorEngineer extends Engineer{
    String title = "Senior Engineer Developer";
    public static void main(String args[]){
 	SeniorEngineer obj = new SeniorEngineer();
